@@ -7,11 +7,12 @@
 
 section { 
     height: 100vh;
-    background: rgb(255,255,255);
+    background: rgb(22,22,22);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column; 
+    color: rgb(235,235,235)
 }
 
 svg {
