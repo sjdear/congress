@@ -20,8 +20,8 @@ darkMode.addEventListener('click', () => {
     
     .add({
         targets: "section",
-        backgroundColor: toggle ? 'rgb(22,22,22)' : 'rgb(235,235,235)',
-        color: toggle ? 'rgb(235,235,235)' : 'rgb(22,22,22)'
+        backgroundColor: toggle ? 'rgb(255,255,255)' : 'rgb(22,22,22)',
+        color: toggle ? 'rgb(22,22,22)' : 'rgb(225,225,255)'
     }, "-= 700");
     //everytime we click on sun it will switch
     if(!toggle){
