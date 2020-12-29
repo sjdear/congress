@@ -36,8 +36,12 @@ body{
   }
 
 .card{
-    color: rgb(235, 235, 235);
-    background: rgb(46, 56, 87);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(
+        to left,
+        rgba(235, 56, 53, 0.75),
+        rgba(44, 127, 209, 0.75)
+    );
     min-height: 80vh;
     width: 22rem;
     border-radius: 30px;
