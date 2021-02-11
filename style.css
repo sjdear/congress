@@ -17,22 +17,23 @@ html {
   }
   
 body{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     display: flex;
-    font-size: 76%;
+    font-size: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
 }
 
 .container {
-    width: 50%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: row; 
     min-height: 100vh;
+    text-align: center;
   }
 
 .card{
@@ -42,16 +43,29 @@ body{
         rgba(235, 56, 53, 0.75),
         rgba(44, 127, 209, 0.75)
     );
-    min-height: 80vh;
-    width: 22rem;
+    min-height: 85vh;
+    max-height: 85vh;
+    width: 24rem;
     border-radius: 30px;
     padding: 2rem 2rem;
     box-shadow: 0 20px 20px rgba(0,0,0,0.2);
     box-shadow: 0 50px 50px rgba(0,0,0,0.2);
+    float: center;
 }
 
-.info{
-    text-align: center;
+
+.house{
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.senate{
+    text-align: right;
+}
+
+.isNot{
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 section{
@@ -61,4 +75,9 @@ section{
     justify-content: space-around;
     align-items: center;
     flex-direction: column; 
+}
+
+img{
+    width: 50px;
+    justify-self: center;
 }
