@@ -15,7 +15,7 @@ setInterval(function() {
       var fs = require('fs')
       fs.readFile('index.html', 'utf8', function (err,data) {
       
-        var formatted = data.replace(/totally is/g, 'totally isnt');
+        var formatted = data.replace(/totally is./g, 'totally isnt.');
       
        fs.writeFile('index.html', formatted, 'utf8', function (err) {
           if (err) return console.log(err);
@@ -25,7 +25,7 @@ setInterval(function() {
       var fs = require('fs')
       fs.readFile('index.html', 'utf8', function (err,data) {
       
-        var formatted = data.replace(/totally isnt/g, 'totally is');
+        var formatted = data.replace(/totally isnt./g, 'totally is.');
       
        fs.writeFile('index.html', formatted, 'utf8', function (err) {
           if (err) return console.log(err);
@@ -52,7 +52,7 @@ async function senateStatus(url) {
     var fs = require('fs')
     fs.readFile('index.html', 'utf8', function (err,data) {
     
-      var formatted = data.replace(/sure is/g, 'sure is not');
+      var formatted = data.replace(/sure is./g, 'sure is not.');
     
      fs.writeFile('index.html', formatted, 'utf8', function (err) {
         if (err) return console.log(err);
@@ -62,7 +62,7 @@ async function senateStatus(url) {
     var fs = require('fs')
     fs.readFile('index.html', 'utf8', function (err,data) {
     
-      var formatted = data.replace(/sure is not/g, 'sure is');
+      var formatted = data.replace(/sure is not./g, 'sure is.');
     
      fs.writeFile('index.html', formatted, 'utf8', function (err) {
         if (err) return console.log(err);
