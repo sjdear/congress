@@ -63,7 +63,12 @@ body{
     text-align: right;
 }
 
-.isNot{
+.houseStatus{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.senateStatus{
     text-decoration: underline;
     text-underline-position: under;
 }
