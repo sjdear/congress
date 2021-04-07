@@ -32,7 +32,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row; 
-    height: 85vh;
+    max-height: 85vh;
+    min-height: 85vh;
     text-align: center;
   }
 
