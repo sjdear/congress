@@ -1,4 +1,4 @@
-git add .
+git add index.html
 git commit -a -m "auto-update `date +%F-%T`"
 git push
 ###########################

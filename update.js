@@ -1,7 +1,7 @@
 
 setInterval(function() {
     const exec = require('child_process').exec;
-    exec('/Users/sydneydeardorff/Desktop/congressSiteLive/quickiePush.sh', (e, stdout, stderr)=> {
+    exec('/home/sydney_deardorff/congress/congress/quickiePush.sh', (e, stdout, stderr)=> {
         if (e instanceof Error) {
             console.error(e);
             throw e;
