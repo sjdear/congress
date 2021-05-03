@@ -10,4 +10,4 @@ setInterval(function() {
         console.log('sterr', stderr);
     });
 
-}, 300 * 1000);
+}, 150 * 1000);

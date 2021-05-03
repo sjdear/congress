@@ -75,7 +75,7 @@ async function senateStatus(url) {
 
 senateStatus('https://www.congress.gov/')
 
-}, 300 * 1000); 
+}, 150 * 1000); 
 
 
 
