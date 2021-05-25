@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 setInterval(function() {
 
   async function houseStatus(url) {
-    const browser = await puppeteer.launch({headless: true});
+    const browser = await puppeteer.launch({args: ['--no-sandbox']});
     const page = await browser.newPage();
     await page.goto(url);
 
@@ -40,7 +40,7 @@ houseStatus('https://www.congress.gov/')
 
 
 async function senateStatus(url) {
-  const browser = await puppeteer.launch({headless: true});
+  const browser = await puppeteer.launch({args: ['--no-sandbox']});
   const page = await browser.newPage();
   await page.goto(url);
 
@@ -75,7 +75,11 @@ async function senateStatus(url) {
 
 senateStatus('https://www.congress.gov/')
 
+<<<<<<< HEAD
 }, 60 * 1000); 
+=======
+},300 * 1000); 
+>>>>>>> 8b1abca4292cdb77cf681d7f1f27e12a09cf3ce8
 
 
 
