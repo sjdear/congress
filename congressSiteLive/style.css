@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+svg {
+    cursor: pointer;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+a {
+    color: rgb(255, 255, 255);
+  }
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+    max-height: 85vh;
+    min-height: 85vh;
+    text-align: center;
+  }
+
+.card{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(
+        to left,
+        rgba(235, 56, 53, 0.75),
+        rgba(44, 127, 209, 0.75)
+    );
+    min-height: 85vh;
+    max-height: 85vh;
+    width: 24rem;
+    border-radius: 30px;
+    padding: 2rem 2rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 50px 50px rgba(0,0,0,0.2);
+    float: center;
+}
+
+
+.house{
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.senate{
+    text-align: right;
+}
+
+.houseStatus{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.senateStatus{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+section{
+    min-height: 100vh;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+}
+
+img{
+    width: 50px;
+    justify-self: center;
+}
